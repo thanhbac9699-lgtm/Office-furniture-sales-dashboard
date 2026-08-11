@@ -19,7 +19,7 @@
 
 五個 CSV 檔案，採星型架構：`orders` 為事實資料表（9,999 筆），`customer`（12,136 筆）、`product`（13 筆）、`payment`、`shipping` 為維度資料表。
 
-![Data model](images/data-model.
+![Data model](images/data-model.jpg)
 
 ### 資料整理
 
