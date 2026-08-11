@@ -5,7 +5,7 @@
 
 [**→ 開啟互動式儀表板 / View interactive dashboard**](ADD_YOUR_LINK_HERE)
 
-![Dashboard overview](images/dashboard-overview.png)
+![Dashboard overview](images/dashboard-overview.jpg)
 
 ---
 
@@ -19,7 +19,7 @@
 
 五個 CSV 檔案，採星型架構：`orders` 為事實資料表（9,999 筆），`customer`（12,136 筆）、`product`（13 筆）、`payment`、`shipping` 為維度資料表。
 
-![Data model](images/data-model.png)
+![Data model](images/data-model.
 
 ### 資料整理
 
