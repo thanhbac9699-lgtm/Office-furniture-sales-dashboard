@@ -34,9 +34,9 @@
 **營收定義不明確** — 原始資料沒有營收欄位。定義兩個量值而非一個，因為兩者的差額正是本專案的核心發現：
 
 ```dax
-Booked Revenue = SUMX(orders, orders[quantity] * RELATED(product[unit price]))
-Realized Revenue = CALCULATE([Booked Revenue], orders[status] = "Completed")
-Lost Revenue = [Booked Revenue] - [Realized Revenue]
+M_Booked Revenue = SUMX(orders, orders[quantity] * RELATED(product[unit price]))
+M_Realized Revenue = CALCULATE([M_Booked Revenue], orders[Order status.new] = "Completed")
+M_Lost Revenue = [M_Booked Revenue]- [M_Realized Revenue]
 ```
 
 同樣的陷阱也出現在客單價：分子與分母必須採用相同母體。以訂單總額除以已完成訂單數，會讓客單價虛增約 50%。
@@ -92,9 +92,9 @@ The raw data needed significant cleaning before it could support reliable measur
 **Unclear revenue definition** — The source had no revenue column. I defined two measures instead of one, because the gap between them is the main finding:
 
 ```dax
-Booked Revenue = SUMX(orders, orders[quantity] * RELATED(product[unit price]))
-Realized Revenue = CALCULATE([Booked Revenue], orders[status] = "Completed")
-Lost Revenue = [Booked Revenue] - [Realized Revenue]
+M_Booked Revenue = SUMX(orders, orders[quantity] * RELATED(product[unit price]))
+M_Realized Revenue = CALCULATE([M_Booked Revenue], orders[Order status.new] = "Completed")
+M_Lost Revenue = [M_Booked Revenue]- [M_Realized Revenue]
 ```
 
 The same trap applies to average order value: the numerator and denominator must use the same population. Dividing booked revenue by completed orders inflates AOV by about 50%.
