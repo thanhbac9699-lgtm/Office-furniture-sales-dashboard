@@ -1,7 +1,11 @@
 # Office Furniture Sales Dashboard
 ### 辦公家具銷售儀表板
 
+Sales Dashboard | Data Analytics Case Study
+
 **Power BI · DAX · Power Query**
+
+作者 / Author: 黎氏清北 | Lê Thị Thanh Bắc (Brynna) · [LinkedIn](www.linkedin.com/in/brynna99)
 
 [**→ 開啟互動式儀表板 / View interactive dashboard**](https://app.powerbi.com/groups/me/reports/e956f762-75ce-4ae4-8142-92444ce764a9?ctid=be8329a7-7218-49a3-9ac1-d7b954563f39&pbi_source=linkShare&bookmarkGuid=411f3200-dbcb-422d-a713-ac8114e7d30d)
 
