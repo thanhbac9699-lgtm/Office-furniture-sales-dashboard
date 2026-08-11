@@ -3,7 +3,7 @@
 
 **Power BI · DAX · Power Query**
 
-[**→ 開啟互動式儀表板 / View interactive dashboard**](ADD_YOUR_LINK_HERE)
+[**→ 開啟互動式儀表板 / View interactive dashboard**](https://app.powerbi.com/groups/me/reports/e956f762-75ce-4ae4-8142-92444ce764a9?ctid=be8329a7-7218-49a3-9ac1-d7b954563f39&pbi_source=linkShare&bookmarkGuid=411f3200-dbcb-422d-a713-ac8114e7d30d)
 
 ![Dashboard overview](images/dashboard-overview.jpg)
 
